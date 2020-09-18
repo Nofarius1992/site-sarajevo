@@ -494,15 +494,16 @@ RESPONSIVE Design
 
 .pref,
 .next {
-  background: grey;
+  background: #8080803b;
   width: 60px;
   height: 60px;
-  font-size: 30px;
+  font-size: 39px;
   text-align: center;
   border-radius: 50%;
-
   position: absolute;
   top: 50%;
+  color: white;
+  cursor: pointer;
 }
 
 .next {
@@ -516,13 +517,41 @@ RESPONSIVE Design
 .image {
   text-align: center;
   width: 100%;
+  height: 100%;
 }
 
 .image img {
   display: block;
   margin: 0 auto;
+  width: 855px;
+  height: 100%; 
 } 
 
+
+.slides ul{
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 65px;
+
+}
+
+.slides ul li {
+  width: 120px;
+  height: 100px;
+  float: left;
+  margin: 0 10px;
+}
+
+.slides ul li.active {
+    width: 116px;
+  height: 96px;  
+  border: 2px solid #ff0000;
+}
+
+.slides ul li img {
+  width: 100%;
+  height: 100%;
+}
 
 
 
